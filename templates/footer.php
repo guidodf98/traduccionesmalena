@@ -25,7 +25,7 @@ include_once './lang/languajeSelector.php';
       <h4 class="footer-content-titulo">
         <span class="rosa">[&nbsp</span><?php echo $lang['footer_col2_tile'] ?><span class="rosa">&nbsp]</span>
       </h4>
-      <a href="<?php echo $dominio ?>/especialidad.php<?php echo $lang['lang_url'] ?>&esp=tg">
+      <a href="<?php echo $dominio?>/especialidad.php<?php echo $lang['lang_url'] ?>&esp=tg">
         <p><span class="rosa"><i class="icon-me right-open icon-footer">&#xe803;</i></span><?php echo $lang['footer_col2_link1'] ?></p>
       </a>
       <a href="<?php echo $dominio ?>/especialidad.php<?php echo $lang['lang_url'] ?>&esp=tt">
