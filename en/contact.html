@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EN | Contact | Traducciones Malena</title>
+  <link rel="stylesheet" href="../sass/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../favicon.png">
+</head>
+
+<body>
+  <div style="height:45px"></div>
+  <nav class="container-m">
+    <div class="container-m nav">
+      <div class="nav-logo">
+        <a href="./home.html">
+          <img src="../images/logo texto derecha.png" alt="logo Traducciones malena">
+        </a>
+      </div>
+      <div class="nav-menu">
+        <ul>
+          <li><a href="./home.html#about-me">About Me</a></li>
+          <li><a href="./home.html#services">Services</a></li>
+          <li><a href="./home.html#especializations">Especializations</a></li>
+          <li><a href="../es/contacto.html">ES</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-m contacto">
+    <h1 class="titulo-seccion">Contact</h1>
+    <hr class="hr-subtitulo">
+    <div class="container-s contacto-content">
+      <div class="col col-1">
+        <h2>Already found what you were looking for?</h2>
+        <br>
+        <br>
+        <p>Wait no longer! Fill out the form, write me by email or text me to my mobile phone and let’s start working
+          on your project! You’ll get an answer in less than 24 hs.</p>
+        <h3>+54 299 571 6905</h3>
+        <h3>hello@traduccionesmalena.com</h3>
+      </div>
+      <div class="col col-2">
+        <div class="formulario">
+          <p class="obligatorio"><b>The fields with (*) are required</b></p>
+          <form name="form-contacto" id="form-contacto" onsubmit=validacionForm()>
+            <input class="form-field" type="text" id="nombre" name="nombre" placeholder="Name*">
+            <br>
+            <input class="form-field" type="text" id="apellido" name="apellido" placeholder="Surname*">
+            <br>
+            <input class="form-field" type="email" id="email" name="email" placeholder="Email*">
+            <br>
+            <select class="form-field" id="pais" name="pais">
+              <option value="">Choose country</option>
+              <option value="argentina">Argentina</option>
+              <option value="australia">Australia</option>
+              <option value="chile">Chile</option>
+              <option value="estados uidos">Estados Unidos</option>
+              <option value="nueva zelanda">Nueva Zelanda</option>
+              <option value="uruguay">Uruguay</option>
+              <option value="otro">Otro</option>
+            </select>
+            <br>
+            <div class="form-field">
+              <label>Do you have documents to translate?</label><br><br>
+              <label for="doc-si">Yes</label><br>
+              <input type="radio" onclick=documentosOnchange() id="doc-si" name="tieneDocumentos" value="Si">
+              <label for="doc-no">No</label><br>
+              <input type="radio" onclick=documentosOnchange() id="doc-no" name="tieneDocumentos" value="No">
+            </div>
+            <input class="form-field hide" type="number" id="documentos" name="documentos"
+              placeholder="Amount of documents: ">
+            <div class="form-field">
+              <label>Do you want to request a meeting?</label><br><br>
+              <label for="reunion-si">Yes</label><br>
+              <input type="radio" onclick=reunionOnchange() id="reunion-si" name="quiereReunion" value="Si">
+              <label for="reunion-no">No</label><br>
+              <input type="radio" onclick=reunionOnchange() id="reunion-no" name="quiereReunion" value="No">
+            </div>
+            <input class="form-field hide" type="date" id="fechaReunion" name="fechaReunion"
+              placeholder="Cantidad de documentos: ">
+            <textarea class="form-field" id="consulta" name="consulta" placeholder="Write your question*"
+              style="height:200px"></textarea>
+            <br>
+            <input class="btn btn-rosa" type="submit" value="Enviar">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="container-m footer">
+    <div class="container-s footer-content">
+      <div class="col3 footer-content-col">
+        <h4 class="footer-content-titulo">
+          <span class="rosa">[</span>
+          &nbspSERVICES&nbsp
+          <span class="rosa">]
+          </span>
+        </h4>
+        <a href="./home.html#servicios">
+          <p><span class="rosa"><i class="icon-me right-open icon-footer">&#xe803;</i></span> Translations</p>
+        </a>
+        <a href="./home.html#servicios">
+          <p><span class="rosa"><i class="icon-me right-open icon-footer">&#xe803;</i></span> Editing and proofreading
+          </p>
+        </a>
+        <a href="./home.html#servicios">
+          <p><span class="rosa"><i class="icon-me right-open icon-footer">&#xe803;</i></span> Subtitling</p>
+        </a>
+        <a href="./home.html#servicios">
+          <p><span class="rosa"><i class="icon-me right-open icon-footer">&#xe803;</i></span> Other linguistic services
+          </p>
+        </a>
+      </div>
+      <div class="col3 footer-content-col">
+        <h4 class="footer-content-titulo">
+          <span class="rosa">[</span>
+          &nbspSPECIALIZATIONS&nbsp
+          <span class="rosa">]
+          </span>
+        </h4>
+        <a href="./tourism-and-gastronomy.html">
+          <p><span class="rosa"><i class="icon-me right-open icon-footer">&#xe803;</i></span> Tourism and Gastronomy</p>
+        </a>
+        <a href="./technical-translations.html">
+          <p><span class="rosa"><i class="icon-me right-open icon-footer">&#xe803;</i></span> Technical Translations</p>
+        </a>
+        <a href="./legal-translations.html">
+          <p><span class="rosa"><i class="icon-me right-open icon-footer">&#xe803;</i></span> Legal Translations</p>
+        </a>
+      </div>
+      <div class="col3 footer-content-col">
+        <h4 class="footer-content-titulo">
+          <span class="rosa">[</span>
+          &nbspREDES SOCIALES&nbsp
+          <span class="rosa">]</span>
+        </h4>
+        <a href="https://www.instagram.com/traducciones.malena/">
+          <p><span class="rosa"><i class="icon-me right-open icon-footer">&#xe803;</i></span> Instagram</p>
+        </a>
+        <a href="https://www.proz.com/translator/2753983">
+          <p><span class="rosa"><i class="icon-me right-open icon-footer">&#xe803;</i></span> Proz</p>
+        </a>
+        <a href="https://www.linkedin.com/in/malena-traducciones/">
+          <p><span class="rosa"><i class="icon-me right-open icon-footer">&#xe803;</i></span> LinkedIn</p>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/scripts.js"></script>
+</body>
+
+</html>
