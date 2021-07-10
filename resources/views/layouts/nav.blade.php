@@ -7,12 +7,12 @@
     </div>
     <div class="nav-menu">
       <ul>
-        <li><a href="#sobre-mi">{{ __('home.navbar.about_me') }}</a></li>
+        <li><a href="#sobre-mi">@lang('home.navbar.about_me')</a></li>
         <li><a href="./es/contacto.html">@lang('home.navbar.contact')</a></li>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#especializaciones">Especializaciones</a></li>
+        <li><a href="#servicios">@lang('home.navbar.services')</a></li>
+        <li><a href="#especializaciones">@lang('home.navbar.especializations')</a></li>
         <select class='selector-nav' name="Languaje" onchange="locateRedirect(value)">
-          <option value="">Languaje&nbsp;</option>
+          <option value="">@lang('home.navbar.languaje')&nbsp;</option>
           <option value="es">ES</option>
           <option value="en">EN</option>
           <option value="pr">PR</option>
