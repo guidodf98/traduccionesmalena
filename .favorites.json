@@ -1,0 +1,56 @@
+[
+    {
+        "type": "Directory",
+        "name": "d:\\xampp\\htdocs\\traduccionesmalena\\resources\\views",
+        "parent_id": null,
+        "fsPath": "d:\\xampp\\htdocs\\traduccionesmalena\\resources\\views",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "KMBZSGDk4hNLmjVX"
+    },
+    {
+        "type": "Directory",
+        "name": "d:\\xampp\\htdocs\\traduccionesmalena\\resources\\lang",
+        "parent_id": null,
+        "fsPath": "d:\\xampp\\htdocs\\traduccionesmalena\\resources\\lang",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "xjKtOdu3ogMbCGeJ"
+    },
+    {
+        "type": "Directory",
+        "name": "d:\\xampp\\htdocs\\traduccionesmalena\\routes",
+        "parent_id": null,
+        "fsPath": "d:\\xampp\\htdocs\\traduccionesmalena\\routes",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "84Bp6wPKY7L5MW9b"
+    },
+    {
+        "type": "Directory",
+        "name": "d:\\xampp\\htdocs\\traduccionesmalena\\public",
+        "parent_id": null,
+        "fsPath": "d:\\xampp\\htdocs\\traduccionesmalena\\public",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "8O2DPf6M4wry3n7B"
+    },
+    {
+        "type": "Directory",
+        "name": "d:\\xampp\\htdocs\\traduccionesmalena\\database",
+        "parent_id": null,
+        "fsPath": "d:\\xampp\\htdocs\\traduccionesmalena\\database",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "yIcxrzukGtdlXYqF"
+    },
+    {
+        "type": "Directory",
+        "name": "d:\\xampp\\htdocs\\traduccionesmalena\\app\\Http",
+        "parent_id": null,
+        "fsPath": "d:\\xampp\\htdocs\\traduccionesmalena\\app\\Http",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "2YCjPoMs1TBmkrQJ"
+    }
+]
