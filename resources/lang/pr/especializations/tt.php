@@ -8,17 +8,18 @@
 */
 
 return [
-  'title' => 'Traducciones Tecnicas',
-  'p1'    => 'Toda mi vida viví en una región cuya principal actividad económica es la producción de hidrocarburos. Además, la ciudad en la que crecí avanza constantemente en el sector de construcción urbana. Por ello, conozco de primera mano los procesos, las maquinarias, y la normativa del sector de gas y petróleo.',
-  'p2'    => 'Esto, sumado a mi formación académica, me enseñó que si algo caracteriza a los textos técnicos es la precisión y la densidad terminológica. En esta área es imprescindible una traducción y revisión de calidad para lograr una comunicación efectiva.',
-  'p3'    => '¡No busques más! Tus textos técnicos están en buenas manos.',
-  'other' => 'Otras especializaciones',
+  'title' => 'Traduções Técnicas',
+  'p1'    => 'Vivi toda a minha vida numa região onde a principal atividade económica é a exploração e produção de petróleo e gás. Além disso, a cidade onde moro está em constante desenvolvimento no setor da construção. Aos poucos, descobri que estava envolvido com máquinas e regulamentações desses setores.',
+  'p2'    => 'Tudo isso, aliado à minha formação como tradutor, me ensinou que o que mais caracteriza os textos técnicos é a exatidão e a terminologia. Textos nessas áreas requerem uma tradução e revisão de alta qualidade para alcançar uma comunicação eficaz.',
+  'p3'    => 'Não procure mais! Seus textos técnicos estão em boas mãos!',
+  'other' => 'Outras especializações',
   'help'  => [
-    'title' => 'Te ayudaré con:',
-    'i1'    => 'Manuales de uso y de ensamblaje',
-    'i2'    => 'Resúmenes ejecutivos',
-    'i3'    => 'Artículos de investigación',
-    'i4'    => 'Tu tesis, tesina o currículum vitae',
-    'i5'    => '¡Y más!',
+    'title' => 'Vou ajudá-lo com:',
+    'i1'    => 'Manuais do usuário e de montagem',
+    'i2'    => 'Resumos executivos',
+    'i3'    => 'Artigos de pesquisa',
+    'i4'    => 'Sua tese, dissertação ou currículo',
+    'i5'    => 'E mais!!',
+    'i6'    => ''
   ],
 ];

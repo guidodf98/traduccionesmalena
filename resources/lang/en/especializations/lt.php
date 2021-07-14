@@ -8,16 +8,18 @@
 */
 
 return [
-  'title' => 'Traducciones Legales',
-  'p1'    => 'Como Traductora Pública egresada de la Universidad Nacional del Comahue comprendo la dificultad de los documentos jurídicos de carácter público y privado.',
-  'p2'    => 'Además, por experiencia propia, sé lo rigurosos y engorrosos que suelen ser los procedimientos de los organismos que solicitan esta documentación. Ahórrate un dolor de cabeza y deja que me encargue de tus traducciones legales.',
-  'other' => 'Otras especializaciones',
+  'title' => 'Legal Translations',
+  'p1'    => 'As a Certified Translator graduated from Universidad Nacional del Comahue, I understand the complexity of private and public legal documents.',
+  'p2'    => 'Besides, from my own experience, I know how strict and burdensome the procedures to present these kinds of texts might be. Avoid a headache and let me take care of your legal texts.',
+  'p3'    => '',
+  'other' => 'Other specializations',
   'help'  => [
-    'title' => 'Te ayudaré con:',
-    'i1'    => 'Tu documentación personal',
-    'i2'    => 'Sentencias y demandas',
-    'i3'    => 'Contratos y acuerdos',
-    'i4'    => 'Estados financieros',
-    'i5'    => '¡Y más!',
+    'title' => 'I’ll help you with:',
+    'i1'    => 'Your personal and academic documents',
+    'i2'    => 'Decrees and demands',
+    'i3'    => 'Contracts and agreements',
+    'i4'    => 'Financial statements',
+    'i5'    => 'And more!',
+    'i6'    => ''
   ],
 ];

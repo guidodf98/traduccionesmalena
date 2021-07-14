@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\App;
+use App\Http\Controllers\EspecializationController;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Route;
 
@@ -16,18 +16,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-  return view('welcome');
+  return view('home');
 });
-
-// Route::get('locale/{locale}', function ($locale) {
-//   if (!in_array($locale, ['en', 'es', 'pr'])) {
-//     abort(400);
-//   }
-//   App::setLocale($locale);
-//   return Redirect::back(); 
-// });
 
 Route::get('locale/{locale}', function ($locale) {
   session()->put('locale', $locale);
   return Redirect::back();
+});
+
+Route::get('/esp/{esp}', EspecializationController::class);
+
+Route::get('/contacto', function(){
+  return view('contact');
 });

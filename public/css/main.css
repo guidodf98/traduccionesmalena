@@ -93,7 +93,7 @@ textarea {
 
 .col {
   height: 100%;
-  display: inline-block;
+  /* display: inline-block; */
   width: 50%;
   float: left;
 }
@@ -160,7 +160,6 @@ h2 {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
-  speak: never;
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
@@ -185,6 +184,7 @@ h2 {
   font-family: "Montserrat";
   font-size: 0.95em;
   font-weight: 700;
+  overflow: hidden;
 }
 
 .footer-content {
@@ -429,6 +429,7 @@ h2 {
 }
 
 .contacto {
+  margin-top: 45px;
   background-image: url("../images/fondo contacto.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -687,3 +688,4 @@ h2 {
 .formulario form input {
   width: 100%;
 }
+

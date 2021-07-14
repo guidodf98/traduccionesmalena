@@ -8,17 +8,18 @@
 */
 
 return [
-  'title' => 'Traducciones Tecnicas',
-  'p1'    => 'Toda mi vida viví en una región cuya principal actividad económica es la producción de hidrocarburos. Además, la ciudad en la que crecí avanza constantemente en el sector de construcción urbana. Por ello, conozco de primera mano los procesos, las maquinarias, y la normativa del sector de gas y petróleo.',
-  'p2'    => 'Esto, sumado a mi formación académica, me enseñó que si algo caracteriza a los textos técnicos es la precisión y la densidad terminológica. En esta área es imprescindible una traducción y revisión de calidad para lograr una comunicación efectiva.',
-  'p3'    => '¡No busques más! Tus textos técnicos están en buenas manos.',
-  'other' => 'Otras especializaciones',
+  'title' => 'Technical Translations',
+  'p1'    => 'I lived my entire life in a region where the main economic activity is the exploration and production of oil and gas. Besides, the city where I live is constantly developing in the construction sector. Gradually, I discovered that I was into machinery and regulations from these sectors.',
+  'p2'    => 'All these, together with my formal education as a translator, taught me that what characterizes technical texts the most is accuracy and terminology. Texts in these areas require a high quality translation and revision to achieve effective communication.',
+  'p3'    => 'Look no further! Your technical texts are in good hands!',
+  'other' => 'Other specializations',
   'help'  => [
-    'title' => 'Te ayudaré con:',
-    'i1'    => 'Manuales de uso y de ensamblaje',
-    'i2'    => 'Resúmenes ejecutivos',
-    'i3'    => 'Artículos de investigación',
-    'i4'    => 'Tu tesis, tesina o currículum vitae',
-    'i5'    => '¡Y más!',
+    'title' => 'I’ll help you with:',
+    'i1'    => 'User and assembling manuals',
+    'i2'    => 'Executive summaries',
+    'i3'    => 'Research articles',
+    'i4'    => 'Your thesis, dissertation or CV',
+    'i5'    => 'And more!',
+    'i6'    => ''
   ],
 ];

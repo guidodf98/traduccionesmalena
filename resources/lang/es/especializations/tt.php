@@ -20,5 +20,6 @@ return [
     'i3'    => 'Artículos de investigación',
     'i4'    => 'Tu tesis, tesina o currículum vitae',
     'i5'    => '¡Y más!',
+    'i6'    => ''
   ],
 ];

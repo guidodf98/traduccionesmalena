@@ -4,19 +4,19 @@
       <h4 class="footer-content-titulo">
         <span class="rosa">[&nbsp;</span>@lang('home.footer.col1.title')<span class="rosa">&nbsp;]</span>
       </h4>
-      <a href="#servicios">
+      <a href="{{ url('/#servicios') }}">
         <p><span class="rosa"><i
               class="icon-me right-open icon-footer">&#xe803;</i></span>@lang('home.footer.col1.link1')</p>
       </a>
-      <a href="#servicios">
+      <a href="{{ url('/#servicios') }}">
         <p><span class="rosa"><i
               class="icon-me right-open icon-footer">&#xe803;</i></span>@lang('home.footer.col1.link2')</p>
       </a>
-      <a href="#servicios">
+      <a href="{{ url('/#servicios') }}">
         <p><span class="rosa"><i
               class="icon-me right-open icon-footer">&#xe803;</i></span>@lang('home.footer.col1.link3')</p>
       </a>
-      <a href="#servicios">
+      <a href="{{ url('/#servicios') }}">
         <p><span class="rosa"><i
               class="icon-me right-open icon-footer">&#xe803;</i></span>@lang('home.footer.col1.link4')</p>
       </a>
@@ -25,15 +25,14 @@
       <h4 class="footer-content-titulo">
         <span class="rosa">[&nbsp;</span>@lang('home.footer.col2.title')<span class="rosa">&nbsp;]</span>
       </h4>
-      <a href="./es/turismo-y-gastronomia.html">
+      <a href="{{ url('/esp/tg') }}">
         <p><span class="rosa"><i
               class="icon-me right-open icon-footer">&#xe803;</i></span>@lang('home.footer.col2.link1')</p>
       </a>
-      <a href="./es/traducciones-tecnicas.html">
-        <p><span class="rosa"><i
-              class="icon-me right-open icon-footer">&#xe803;</i></span>@lang('home.footer.col2.link2')</p>
+      <a href="{{ url('/esp/tt') }}">
+        <p><span class="rosa"><i class="icon-me right-open icon-footer">&#xe803;</i></span>@lang('home.footer.col2.link2')</p>
       </a>
-      <a href="./es/traducciones-legales.html">
+      <a href="{{ url('/esp/lt') }}">
         <p><span class="rosa"><i
               class="icon-me right-open icon-footer">&#xe803;</i></span>@lang('home.footer.col2.link3')</p>
       </a>
